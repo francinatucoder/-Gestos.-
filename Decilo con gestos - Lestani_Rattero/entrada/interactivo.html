@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ml5.js neuralNetwork Loading Pre-trained Model Example</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@1.0.1/dist/ml5.min.js"></script>
+    <style>
+      canvas {
+      display: block;
+      position: absolute;
+      left: 350px; 
+      top: 120px;
+      border-radius: 10px;
+      margin: 0;
+    }
+</style>
+</head>
+
+<body>
+    <div><button class="boton2" onclick="window.location.href = 'entrada.html'"><</button>
+
+    <button id="muteButton" onclick="toggleMute()">
+      <i id="muteIcon" class="fas fa-volume-up"></i>
+    </button></div>
+    
+      <div class="container">
+          <button id="pistaBoton" onclick="cambiarTexto()"><svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_364_165)">
+            <mask id="mask0_364_165" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-1" y="0" width="20" height="15">
+            <rect x="-1" width="20" height="15" fill="#D9D9D9"/>
+            </mask>
+            <g mask="url(#mask0_364_165)">
+            <path d="M3.28583 3.32297C0.974313 5.55869 0.968098 9.50312 3.20382 11.8146C5.43954 14.1261 9.12581 14.1876 11.4373 11.9519" stroke="#68A5F6" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M2.32544 7.92848C2.36868 8.34043 2.06978 8.70944 1.65783 8.75268C1.24588 8.79592 0.876878 8.49702 0.833637 8.08507L2.32544 7.92848ZM12.4156 6.86935C12.1231 4.08305 9.62724 2.06139 6.84093 2.35386L6.68434 0.862059C10.2945 0.483106 13.5284 3.10256 13.9074 6.71276L12.4156 6.86935ZM6.84093 2.35386C4.05462 2.64633 2.03297 5.14218 2.32544 7.92848L0.833637 8.08507C0.454684 4.47486 3.07413 1.24101 6.68434 0.862059L6.84093 2.35386Z" fill="#68A5F6"/>
+            <path d="M14.5684 4.18799L13.5501 7.54417L10.1031 5.93105" stroke="#68A5F6" stroke-width="1.5" stroke-linecap="round"/>
+            </g>
+            </g>
+            <defs>
+            <clipPath id="clip0_364_165">
+            <rect width="16" height="15" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>  una pista</button>
+          <div id="randomText">índice arriba</div>
+      </div>
+
+    <script src="interactivo.js"></script>
+</body>
+</html>

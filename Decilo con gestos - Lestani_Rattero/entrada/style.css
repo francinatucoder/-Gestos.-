@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+canvas {
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+body {
+    background-color: rgb(104, 165, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+    font-family: 'jetbrains mono', monospace; 
+    font-weight: 300;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 130px;
+    font-weight: 300;
+    margin-top: 140px;
+}
+
+.boton{
+    text-align: center;
+    background-color: rgb(104, 165, 246);
+    border-radius: 80px;
+    border-color: white;
+    border: 1px solid rgb(249, 221, 40);
+    color: rgb(249, 221, 40);
+    font-family: 'jetbrains mono', light, monospace; 
+    font-size: 15px;
+    font-weight: 300;
+    cursor:pointer;
+    padding: 5px 40px;
+    margin-bottom: 10px;
+
+}
+
+.boton:hover{
+    color: rgb(104, 165, 246);
+    background-color: rgb(249, 221, 40);
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    margin-top: 14px;
+    font-size: 40px; 
+}
+
+.boton2 {
+    color: rgb(249, 221, 40);
+    background-color: rgb(104, 165, 246);
+    border: 1px solid rgb(249, 221, 40);
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 8px 12px;
+    margin-bottom: 800px;
+    margin-right: 1500px;
+    font-weight: 300;
+    cursor:pointer;
+}
+
+.boton2:hover {
+    color: rgb(104, 165, 246);
+    background-color: rgb(249, 221, 40); 
+}
+
+#muteButton {
+    color: rgb(249, 221, 40);
+    background-color: rgb(104, 165, 246);
+    border: 1px solid rgb(249, 221, 40);
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px 10px;
+    cursor:pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 530px; 
+    margin-bottom: 40px;
+}
+
+#pistaBoton {
+    background-color: white;
+    border: none;
+    border-radius: 80px;
+    color: rgb(104, 165, 246);
+    font-family: 'jetbrains mono', light, monospace;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 20px;
+    font-weight: 300;
+}
+
+#pistaBoton:hover {
+    background-color: rgb(249, 221, 40);
+    color: white;
+}
+
+#randomText {
+    background-color: rgb(104, 165, 246);
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+    min-width: 300px; 
+    max-width: 300px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
